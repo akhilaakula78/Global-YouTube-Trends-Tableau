@@ -1,66 +1,64 @@
 # Exploring Global YouTube Trends
 
-This Tableau dashboard explores global YouTube channel trends across geography, category, subscriber base, earnings, and content types. The analysis draws on multiple data dimensions to uncover patterns and cluster channel behaviors.
+This project presents a comprehensive Tableau dashboard that visualizes trends across global YouTube channels, focusing on key metrics such as subscriber distribution, content categories, channel saturation, earnings potential, and geographic influence.
+
+Leveraging publicly available data, the dashboard highlights patterns in content consumption and creator behavior across different regions and thematic clusters. The result is a rich visual narrative that guides stakeholders through strategic insights into the YouTube ecosystem.
 
 ---
 
-## View the Live Dashboard
+## Live Dashboard
 
-[**Explore the Interactive Tableau Dashboard on Tableau Public**](https://public.tableau.com/views/Global_YouTube_Statistics/ExploringGlobalYouTubeTrends)
-
----
-
-## Project Overview
-
-This project aims to answer key questions:
-
-- What are the top countries by YouTube subscribers?
-- Are some content types more saturated or profitable than others?
-- How are earnings and engagement metrics related?
-- Can we cluster YouTube channels by performance patterns?
+Explore the full interactive experience here:  
+[View on Tableau Public](https://public.tableau.com/views/Global_YouTube_Statistics/ExploringGlobalYouTubeTrends)
 
 ---
 
-## Dashboard Previews
+## Project Highlights
 
-### **1. Summary Overview**
-![YouTube Trends Overview](Exploring%20Global%20YouTube%20Trends.png)
+This dashboard addresses several analytical questions:
 
-### **2. Analysis Dashboard**
-![Analysis Dashboard](Analysis%20Dashboard.png)
+- Which countries contribute most significantly to YouTube’s subscriber base?
+- What content categories are dominant in terms of reach and revenue?
+- Is the YouTube content landscape becoming saturated?
+- What correlations exist between content type, audience size, and monetization?
+- Can YouTube channels be grouped into performance-based clusters?
 
-### **3. Subtopic Dashboards**
-| A Look at Top Channels | Is YouTube Saturated? |
-|------------------------|------------------------|
-| ![Top Channels](Top%2010%20Channels.png) | ![Saturation](Is%20YouTube%20Saturated.png) |
+---
 
-| Mapping YouTube | YouTube’s Content Cosmos |
-|-----------------|--------------------------|
-| ![Mapping](Mapping%20YouTube.png) | ![Content](YouTube's%20Content.png) |
+## Dashboard Snapshots
 
-| Multi-Metrics Analysis |
-|------------------------|
-| ![Multi-Metrics](YouTube%20Multi-Metrics.png) |
+### Overview
+![YouTube Trends Overview](/images/Exploring%20Global%20YouTube%20Trends.png)
+
+### Performance & Correlation Analysis
+![Analysis Dashboard](/images/Analysis%20Dashboard.png)
+
+### Focused Story Points
+
+| Top Channels | Saturation Trends |
+|--------------|-------------------|
+| ![Top Channels](/images/Top%2010%20Channels.png) | ![Saturation](/images/Is%20YouTube%20Saturated.png) |
+
+| Global Reach | Content Landscape |
+|--------------|-------------------|
+| ![Mapping](/images/Mapping%20YouTube.png) | ![Content](/images/YouTube's%20Content.png) |
 
 ---
 
 ## Key Insights
 
-- **United States**, **India**, and **Brazil** dominate global audience metrics.
-- **Music** and **Entertainment** attract the most subscribers and revenue.
-- Channels can be clustered into distinct performance groups based on key indicators.
-- Some categories are oversaturated, while others show room for growth.
+- **United States, India, and Brazil** are the top three contributors in terms of aggregate YouTube audience.
+- **Music and Entertainment** channels exhibit the highest subscriber counts and revenue-generating capacity.
+- Cluster analysis reveals four distinct channel profiles, each with unique patterns of audience reach, upload volume, and earnings.
+- Certain categories (e.g., Education, Film & Animation) appear underrepresented compared to their potential for monetization.
 
 ---
 
-## Tools Used
+## Tools & Techniques
 
-- Tableau
-- Clustering (K-Means) Analysis
-- Correlation & KPI Widgets
-- Global Mapping via Mapbox
-- Visual Storytelling
-
----
-
+- **Data Visualization**: Tableau (including filters, maps, scatter plots, bar charts, KPIs)
+- **Data Enrichment**: Calculated fields for earnings and subscriber density
+- **Geospatial Mapping**: Integrated via Mapbox in Tableau
+- **Statistical Exploration**: Cluster segmentation and correlation comparisons
+- **Storytelling**: Multi-tab design with thematic navigation
 
